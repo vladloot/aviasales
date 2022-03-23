@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import logo from './assets/logo/img.png';
+
+import './App.css';
+import { NavigateFilter } from 'components/NavigateFilter/NavigateFilter';
+import { TransfersFilter } from 'components/TransfersFilter/TransfersFilter';
+
+const App: FC = () => (
+  <div className="App">
+    <div className="Logo">
+      <img src={logo} alt="logo" />
     </div>
-  );
-}
+    <div className="app-wrapper">
+      <TransfersFilter />
+      <div>
+        <NavigateFilter />
+      </div>
+    </div>
+  </div>
+);
 
 export default App;

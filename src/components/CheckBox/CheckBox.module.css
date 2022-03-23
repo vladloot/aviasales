@@ -1,0 +1,21 @@
+label {
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.customCheckbox {
+
+}
+
+.customCheckbox img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -25px;
+}
+

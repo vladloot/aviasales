@@ -1,0 +1,23 @@
+.transfersFilter {
+    width: 232px;
+    height: 252px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.transfersFilterWrapper {
+    display: flex;
+    flex-direction: column;
+}
